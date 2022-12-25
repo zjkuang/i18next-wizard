@@ -6,5 +6,8 @@
   "repository": "https://github.com/zjkuang/i18next-wizard.git",
   "author": "Zhengqian Kuang <dev.kuang@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "python-shell": "^3.0.1"
+  }
 }
