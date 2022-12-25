@@ -1,0 +1,10 @@
+{
+  "name": "@zjkuang/i18next-wizard",
+  "version": "0.0.2",
+  "main": "index.js",
+  "bin": "bin.js",
+  "repository": "https://github.com/zjkuang/i18next-wizard.git",
+  "author": "Zhengqian Kuang <dev.kuang@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
