@@ -5,7 +5,5 @@
   "main": "index.js",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "yargs": "^17.6.2"
-  }
+  "dependencies": {}
 }

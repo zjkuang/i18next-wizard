@@ -1,6 +1,6 @@
 {
   "name": "@zjkuang/i18next-wizard",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "type": "module",
   "main": "src/index.js",
   "bin": "bin.js",
@@ -10,6 +10,7 @@
   "private": false,
   "dependencies": {
     "@zjkuang/commonjs-utils": "file:packages/commonjs-utils",
-    "python-shell": "^3.0.1"
+    "python-shell": "^3.0.1",
+    "yargs": "^17.6.2"
   }
 }

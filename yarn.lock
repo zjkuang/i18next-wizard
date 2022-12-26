@@ -4,8 +4,6 @@
 
 "@zjkuang/commonjs-utils@file:packages/commonjs-utils":
   version "0.0.1"
-  dependencies:
-    yargs "^17.6.2"
 
 ansi-regex@^5.0.1:
   version "5.0.1"
