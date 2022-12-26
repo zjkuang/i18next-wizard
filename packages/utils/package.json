@@ -1,0 +1,8 @@
+{
+  "name": "utils",
+  "version": "0.0.2",
+  "type": "commonjs",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false
+}

@@ -1,6 +1,6 @@
 {
   "name": "@zjkuang/i18next-wizard",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "main": "src/index.js",
   "bin": "bin.js",
@@ -9,6 +9,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "python-shell": "^3.0.1"
+    "python-shell": "^3.0.1",
+    "utils": "file:packages/utils"
   }
 }
