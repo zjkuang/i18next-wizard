@@ -1,6 +1,7 @@
 {
   "name": "@zjkuang/i18next-wizard",
-  "version": "0.0.4",
+  "version": "0.0.6",
+  "type": "module",
   "main": "src/index.js",
   "bin": "bin.js",
   "repository": "https://github.com/zjkuang/i18next-wizard.git",
