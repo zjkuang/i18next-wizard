@@ -2,6 +2,9 @@
   "name": "@zjkuang/i18next-wizard",
   "version": "0.0.5",
   "main": "index.js",
+  "bin": {
+    "dirmanager": "dist/index.js"
+  },
   "repository": "https://github.com/zjkuang/i18next-wizard.git",
   "author": "Zhengqian Kuang <dev.kuang@gmail.com>",
   "license": "MIT",
