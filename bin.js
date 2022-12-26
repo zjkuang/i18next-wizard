@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import {py} from './src/python-shell/index.js';
-import {appLocation} from 'utils';
+import {appLocation} from '@zjkuang/commonjs-utils';
 
 console.log('bin.js > Hello, world!');
 

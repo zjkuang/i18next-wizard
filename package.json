@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "python-shell": "^3.0.1",
-    "utils": "file:packages/utils"
+    "@zjkuang/commonjs-utils": "file:packages/commonjs-utils",
+    "python-shell": "^3.0.1"
   }
 }
