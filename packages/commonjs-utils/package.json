@@ -4,5 +4,8 @@
   "type": "commonjs",
   "main": "index.js",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
 }
