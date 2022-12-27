@@ -1,6 +1,6 @@
 {
   "name": "@zjkuang/i18next-wizard",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "type": "module",
   "main": "src/index.js",
   "bin": "bin.js",
@@ -8,6 +8,7 @@
   "author": "Zhengqian Kuang <dev.kuang@gmail.com>",
   "license": "MIT",
   "private": false,
+  "keywords": ["i18next", "generate", "generation"],
   "dependencies": {
     "@zjkuang/commonjs-utils": "file:packages/commonjs-utils",
     "python-shell": "^3.0.1",
