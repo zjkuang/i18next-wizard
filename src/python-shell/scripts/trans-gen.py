@@ -15,8 +15,8 @@ import argparse
 print('trans-gen.py')
 print('yaml version:', yaml.__version__)
 
-default_input_dir = '../yaml'
-default_output_dir = '../generated'
+default_input_dir = 'yaml'
+default_output_dir = 'generated'
 
 argParser = argparse.ArgumentParser()
 argParser.add_argument('--input', type=str, default=default_input_dir)

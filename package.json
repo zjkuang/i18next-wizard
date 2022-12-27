@@ -1,6 +1,6 @@
 {
   "name": "@zjkuang/i18next-wizard",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "type": "module",
   "main": "src/index.js",
   "bin": "bin.js",
