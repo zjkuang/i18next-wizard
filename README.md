@@ -4,7 +4,7 @@ This package generates [i18next](https://yarnpkg.com/package/i18next) strings fo
 
 ## How to use
 
-(1) Create a folder `yaml` in your app, and define your strings in yaml file(s) in this `yaml` folder.  
+(1) Create a folder `yaml` in your app, and define your strings in yaml file(s) in this `yaml` folder. (You can have multiple files for different groups of strings.)  
 (2) Run this package as an npx command, providing the input and output path as command line arguments. (The input path defaults to './yaml' and the output path defaults to './generated')
 
 ## Example
@@ -46,9 +46,9 @@ entries:
 
 Note that
 ```
-For languages in which a noun has different forms for singular and plural, (e.g. in English the word "book" has its singular form "book" and plural form "books",) define `zero`, `one`, `other` for each case.
+ - For languages (such as English) in which a noun has different forms for singular and plural, (e.g. "book" and "books",) define `zero`, `one`, `other` for each case.
 
-For languages (such as Chinese) in which a noun has the same form for singular and plural, define `zeor` and `pluraless` for each case.
+ - For languages (such as Chinese) in which a noun has the same form for singular and plural, define `zeor` and `pluraless` for each case.
 ```
 
 Now suppose I have saved this statements.yaml file in `$APP_ROOT/src/assets/strings/yaml`.
@@ -65,17 +65,6 @@ If everything goes well, you will find the generated i18next strings and functio
 import i18next from 'i18next';
 
 export const i18nextStrings = {
-  Greetings: {
-    HelloWorld: () => {
-      return i18next.t('Greetings.HelloWorld');
-    },
-    GreetingTo: (greeting: string, whom: string) => {
-      return i18next.t('Greetings.GreetingTo', {
-        greeting,
-        whom,
-      });
-    },
-  },
   Statements: {
     ICameFrom: () => {
       return i18next.t('Statements.ICameFrom');
