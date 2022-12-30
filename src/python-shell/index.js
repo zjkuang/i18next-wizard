@@ -1,12 +1,12 @@
 import {PythonShell} from 'python-shell';
 import yargs from 'yargs/yargs';
 import {hideBin} from 'yargs/helpers';
-import {appLocation} from '@zjkuang/commonjs-utils';
+import appRootDir from 'app-root-dir';
 
 export function py() {
   // appLocation() returns the path to where npx installs this package (app)
   // To get the current directory where this app is running, use process.cwd()
-  const script = appLocation() + '/src/python-shell/scripts/trans-gen.py';
+  const script = appRootDir.get() + '/node_modules/@zjkuang/i18next-wizard/src/python-shell/scripts/trans-gen.py';
 
   const argv = yargs(hideBin(process.argv)).argv;
   const args = [];

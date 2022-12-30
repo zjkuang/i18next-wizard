@@ -1,9 +1,0 @@
-{
-  "name": "@zjkuang/commonjs-utils",
-  "version": "0.0.1",
-  "type": "commonjs",
-  "main": "index.js",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {}
-}
